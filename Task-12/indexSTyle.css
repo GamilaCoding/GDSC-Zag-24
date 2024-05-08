@@ -1,0 +1,192 @@
+body {
+
+    background-color: #FFFF80;
+}
+
+/* ================ title-1 ================= */
+
+
+
+.title-1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    animation: titleOne infinite alternate ease-in-out;
+    animation-play-state: running;
+    animation-duration: 1s;
+}
+
+/* ================ titles-one-anim ================= */
+
+@keyframes titleOne {
+    0% {
+        color: #FF0080;
+        transform: translateY(10px);
+    }
+
+    25% {
+        color: #FFAA80;
+    }
+
+    50% {
+        color: rgb(255, 255, 255);
+
+    }
+
+    100% {
+        color: rgb(186, 28, 248);
+    }
+}
+
+/* ================ title-2 ================= */
+.title-2 {
+    color: gray;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    animation: titleTwo infinite alternate ease-in-out;
+    animation-play-state: running;
+    animation-duration: 1s;
+}
+
+/* ================ titles-two-anim ================= */
+
+@keyframes titleTwo {
+    0% {
+        color: #FF0080;
+        transform: translateY(10px);
+    }
+
+    25% {
+        color: #FFAA80;
+    }
+
+    50% {
+        color: rgb(123, 123, 123);
+
+    }
+
+    100% {
+        color: rgb(186, 28, 248);
+    }
+}
+
+/* ================== section-one-translate ==================== */
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+
+
+    p {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0% 30px;
+        margin-top: -20px;
+    }
+
+    .div-1,
+    .div-2,
+    .div-3 {
+        animation: animation infinite alternate ease-in-out;
+        animation-play-state: running;
+        animation-duration: .9s;
+        background-color: white;
+    }
+
+    .div-2 {
+        animation-delay: .2s;
+    }
+
+    .div-3 {
+        animation-delay: .4s;
+    }
+}
+
+@keyframes animation {
+    from {
+        transform: translateY(-25px);
+    }
+
+    to {
+        transform: translateY(25px);
+        background-color: rgb(183, 0, 255);
+    }
+}
+
+
+/* ================== section-two-Scale =========================  */
+
+.scale-sec {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100vw;
+    margin-left: -25px;
+    overflow: hidden;
+}
+
+.sec-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+
+    p {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 13% 30px;
+
+    }
+
+    .div-1,
+    .div-2,
+    .div-3,
+    .div-4,
+    .div-5,
+    .div-6 {
+
+        animation: scale infinite alternate ease-in-out;
+        animation-play-state: running;
+        background-color: rgb(0, 76, 255);
+        animation-duration: 1s;
+    }
+
+
+    .div-2 {
+        animation-delay: .1s;
+    }
+
+    .div-3 {
+        animation-delay: .3s;
+    }
+
+    .div-4 {
+        animation-delay: .5s;
+    }
+
+    .div-5 {
+        animation-delay: .7s;
+    }
+
+    .div-6 {
+        animation-delay: .9s;
+    }
+
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(.3);
+        background-color: rgb(183, 0, 255);
+    }
+}
