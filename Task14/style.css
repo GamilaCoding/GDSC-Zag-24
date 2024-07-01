@@ -46,6 +46,8 @@ nav {
     color: var(--white-color);
     text-decoration: none;
     font-size: 15px;
+    padding: 200px 140px 130px 113px;
+
 }
 
 .home, .about, .menu, .where {
